@@ -1,0 +1,25 @@
+# Data files (large, and re-downloadable from Kaggle - see README)
+data/*.csv
+
+# Trained models ARE committed (Option A) - small enough to fit GitHub's limits,
+# and needed so the deployed app works without retraining on the server.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
